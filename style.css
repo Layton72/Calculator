@@ -1,0 +1,51 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+div.row{
+    margin-bottom: 2px;
+}
+
+div#calculator{
+    width: max-content;
+    background-color: black;
+    padding: 10px;
+}
+
+div#display{
+    height: 55px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 45px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 2px;
+    font-size: x-large;
+    background-color: grey;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button.operator{
+    background-color: orange;
+}
+
+button#equals{
+    width: 100%;
+    border-radius: 50px;
+    background-color: lightgray;
+    color: black;
+}
